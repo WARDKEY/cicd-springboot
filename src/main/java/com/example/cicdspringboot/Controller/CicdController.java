@@ -11,5 +11,6 @@ public class CicdController {
 	@GetMapping("/")
 	public String hello() {
 		return "Hello, CICD!";
+
 	}
 }
