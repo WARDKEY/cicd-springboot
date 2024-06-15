@@ -29,5 +29,6 @@ public class CicdController {
 	public ResponseEntity<String> save(@RequestBody String name) {
 		String result = userService.save(name);
 		return new ResponseEntity<>(result, HttpStatus.OK);
+
 	}
 }
