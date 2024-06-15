@@ -22,7 +22,6 @@ public class CicdController {
 	@GetMapping("/")
 	public String hello() {
 		return "드디어 됐다.";
-
 	}
 
 	@PostMapping("/save")
