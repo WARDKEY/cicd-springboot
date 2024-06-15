@@ -24,6 +24,7 @@ public class CicdController {
 		return "드디어 됐다.";
 	}
 
+
 	@PostMapping("/save")
 	public ResponseEntity<String> save(@RequestBody String name) {
 		String result = userService.save(name);
