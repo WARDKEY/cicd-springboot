@@ -19,5 +19,6 @@ public class UserService {
 
 		userRepository.save(user);
 		return "저장 완료";
+
 	}
 }
