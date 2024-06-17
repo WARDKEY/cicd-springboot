@@ -21,7 +21,7 @@ public class CicdController {
 
 	@GetMapping("/")
 	public String hello() {
-		return "되겠지 뭐~~.";
+		return "돼라.";
 	}
 
 
